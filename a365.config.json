@@ -1,0 +1,18 @@
+{
+  "tenantId": "e049a242-c4ba-4e7f-a9a6-9388be55e6a9",
+  "subscriptionId": "188793e2-bef6-4228-a174-b9c3416b6ce2",
+  "resourceGroup": "rg-avetwin-mvp-mvp-jpe",
+  "location": "japaneast",
+  "environment": "prod",
+  "messagingEndpoint": "https://v4zhmc01-3978.asse.devtunnels.ms/api/messages",
+  "needDeployment": false,
+  "clientAppId": "614eb567-d4c4-4a19-b1a5-40abdd6c1496",
+  "agentIdentityDisplayName": "yukiteamsagent2 Identity",
+  "agentBlueprintDisplayName": "yukiteamsagent2 Blueprint",
+  "agentUserPrincipalName": "UPN.yukiteamsagent2@avebizdevjp.onmicrosoft.com",
+  "agentUserDisplayName": "yukiteamsagent2 Agent User",
+  "managerEmail": "develop@avebizdevjp.onmicrosoft.com",
+  "agentUserUsageLocation": "US",
+  "deploymentProjectPath": "C:\\Users\\yufuj\\Desktop\\avepoint\\Teams-Agent-2\\agent365-agentframework-python",
+  "agentDescription": "yukiteamsagent2 - Agent 365 Agent"
+}

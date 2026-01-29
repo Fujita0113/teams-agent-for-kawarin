@@ -1,0 +1,74 @@
+{
+  "managedIdentityPrincipalId": "ccdc45fb-b204-481a-a459-a3b269f5cf8b",
+  "agentBlueprintId": "139e13e6-b097-4675-80df-d570303c45bf",
+  "agentBlueprintObjectId": "139e13e6-b097-4675-80df-d570303c45bf",
+  "agentBlueprintServicePrincipalObjectId": "d49667e1-6c02-4539-9606-d3a8ea84dffe",
+  "AgenticAppId": null,
+  "AgenticUserId": null,
+  "agentBlueprintClientSecret": "AQAAANCMnd8BFdERjHoAwE/Cl\u002BsBAAAAh5uWgtI8iESnhYsW6dGTuQAAAAACAAAAAAAQZgAAAAEAACAAAACzQnSpG06YzbC7kI\u002BNx2xFFOsIzXlFoEMQX5UFpGXGQwAAAAAOgAAAAAIAACAAAABoNJgtuAeJZNL06vwWEJ0NtmAd0Y29VX3b/I0HC/lxezAAAAAaXHKcx63ocZ3vNFLZgAIUG1r1X\u002B4f\u002BOiNSkean2cfUHUMdIm9xioZApMs2em4RZ9AAAAAdyN\u002BhNH1tq9XFR/rWlolExOUNt73swpjiypy0lQf5oQPIIseq5GeDNxJnjh6qziH7Kk/H2WUsfyiQfyHq8Dktg==",
+  "agentBlueprintClientSecretProtected": true,
+  "botId": "139e13e6-b097-4675-80df-d570303c45bf",
+  "botMsaAppId": "139e13e6-b097-4675-80df-d570303c45bf",
+  "botMessagingEndpoint": "https://v4zhmc01-3978.asse.devtunnels.ms/api/messages",
+  "resourceConsents": [
+    {
+      "resourceName": "Microsoft Graph",
+      "resourceAppId": "00000003-0000-0000-c000-000000000000",
+      "consentUrl": "https://login.microsoftonline.com/e049a242-c4ba-4e7f-a9a6-9388be55e6a9/v2.0/adminconsent?client_id=41b5f044-77fe-4d5c-a99e-539f2e03b4b1\u0026scope=Mail.ReadWrite%20Mail.Send%20Chat.ReadWrite%20User.Read.All%20Sites.Read.All\u0026redirect_uri=https://entra.microsoft.com/TokenAuthorize\u0026state=xyz123",
+      "consentGranted": true,
+      "consentTimestamp": "2026-01-17T02:28:09.5936258Z",
+      "scopes": [
+        "Mail.ReadWrite",
+        "Mail.Send",
+        "Chat.ReadWrite",
+        "User.Read.All",
+        "Sites.Read.All"
+      ],
+      "inheritablePermissionsConfigured": true,
+      "inheritablePermissionsAlreadyExist": false
+    },
+    {
+      "resourceName": "Agent 365 Tools",
+      "resourceAppId": "ea9ffc3e-8a23-4a7d-836d-234d7c7565c1",
+      "consentGranted": true,
+      "consentTimestamp": "2026-01-28T01:44:47.7302895Z",
+      "scopes": [
+        "McpServers.Mail.All",
+        "McpServersMetadata.Read.All"
+      ],
+      "inheritablePermissionsConfigured": true,
+      "inheritablePermissionsAlreadyExist": true
+    },
+    {
+      "resourceName": "Messaging Bot API",
+      "resourceAppId": "5a807f24-c9de-44ee-a3a7-329e88a00ffc",
+      "consentGranted": true,
+      "consentTimestamp": "2026-01-28T01:44:48.6833041Z",
+      "scopes": [
+        "Authorization.ReadWrite",
+        "user_impersonation"
+      ],
+      "inheritablePermissionsConfigured": true,
+      "inheritablePermissionsAlreadyExist": true
+    },
+    {
+      "resourceName": "Observability API",
+      "resourceAppId": "9b975845-388f-4429-889e-eab1ef63949c",
+      "consentGranted": true,
+      "consentTimestamp": "2026-01-28T01:44:49.6446041Z",
+      "scopes": [
+        "user_impersonation"
+      ],
+      "inheritablePermissionsConfigured": true,
+      "inheritablePermissionsAlreadyExist": true
+    }
+  ],
+  "deploymentLastTimestamp": null,
+  "deploymentLastStatus": null,
+  "deploymentLastCommitHash": null,
+  "deploymentLastBuildId": null,
+  "lastUpdated": "2026-01-28T01:44:49.6448452Z",
+  "cliVersion": "1.1.40.19550",
+  "completed": true,
+  "completedAt": "2026-01-28T01:44:36.8208531Z"
+}
